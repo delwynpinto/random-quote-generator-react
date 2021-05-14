@@ -18,7 +18,7 @@ function QuoteBox(props) {
 					/>
 				</div> 
 				<div className="footer-container">
-					<QuoteBoxFooter colorCode = {props.colorCode} newQuote = {props.newQuote}/>
+					<QuoteBoxFooter colorCode = {props.colorCode} newQuote = {props.newQuote} quote = {props.quote} author= {props.author}/>
 				</div>
 			</div>
 						
