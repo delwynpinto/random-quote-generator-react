@@ -1,8 +1,9 @@
 import './App.css';
+import React from 'react';
 
 function QuoteAuthor(props) {
 	return (
-		<div id="author" style={{color: props.colorCode}}>
+		<div id="author" className="author" style={{color: props.colorCode}}>
 			- {props.author}
 		</div>
 	);

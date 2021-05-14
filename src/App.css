@@ -44,3 +44,8 @@
 	margin: 0px;
 	width: 80px;
 }
+
+.quote-box-footer,
+.author {
+	padding-top: 15px;
+}

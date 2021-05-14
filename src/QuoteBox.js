@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import QuoteText from './QuoteText'
 import QuoteAuthor from './Author'
 import QuoteBoxFooter from './QuoteBoxFooter'
@@ -18,7 +19,12 @@ function QuoteBox(props) {
 					/>
 				</div> 
 				<div className="footer-container">
-					<QuoteBoxFooter colorCode = {props.colorCode} newQuote = {props.newQuote} quote = {props.quote} author= {props.author}/>
+					<QuoteBoxFooter 
+						colorCode = {props.colorCode} 
+						newQuote = {props.newQuote} 
+						quote = {props.quote} 
+						author= {props.author}
+					/>
 				</div>
 			</div>
 						
