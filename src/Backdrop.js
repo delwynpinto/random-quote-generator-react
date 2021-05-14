@@ -1,6 +1,6 @@
 import './App.css';
+import React from 'react';
 import QuoteBox from './QuoteBox'
-
 
 function Backdrop(props) {
 	return (
